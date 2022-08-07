@@ -9,17 +9,27 @@ public class Employee {
     private String surname;
     private int salary;
     private String department;
-
     /*
     * option
      */
     private Map<String, String> departments;
+
+    private String carBrand;
+    /*
+     * option
+     */
+    private Map<String, String> carBrands;
 
     public Employee() {
         departments = new HashMap<>();
         departments.put("IT", "Information Technology");
         departments.put("HR", "Human Resources");
         departments.put("Sales", "Sales");
+
+        carBrands = new HashMap<>();
+        carBrands.put("MB", "Mercedes-Benz");
+        carBrands.put("Audi", "Audi");
+        carBrands.put("BMW", "BMW");
     }
 
     public String getName() {
@@ -73,5 +83,21 @@ public class Employee {
 
     public void setDepartments(Map<String, String> departments) {
         this.departments = departments;
+    }
+
+    public String getCarBrand() {
+        return carBrand;
+    }
+
+    public void setCarBrand(String carBrand) {
+        this.carBrand = carBrand;
+    }
+
+    public Map<String, String> getCarBrands() {
+        return carBrands;
+    }
+
+    public void setCarBrands(Map<String, String> carBrands) {
+        this.carBrands = carBrands;
     }
 }

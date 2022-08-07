@@ -23,6 +23,7 @@
   <h4>Your surname: ${employee.surname}</h4>
   <h4>Your salary: ${employee.salary}</h4>
   <h4>Your department: ${employee.department}</h4>
+  <h4>Your car: ${employee.carBrand}</h4>
 
 </body>
 </html>
