@@ -26,6 +26,7 @@
   <h4>Your department: ${employee.department}</h4>
   <h4>Your car: ${employee.carBrand}</h4>
   <h4>Your phone: ${employee.phoneNumber}</h4>
+  <h4>Your email: ${employee.email}</h4>
   <h4>Language(s):</h4>
   <ul>
     <c:forEach var="lang" items="${employee.languages}">

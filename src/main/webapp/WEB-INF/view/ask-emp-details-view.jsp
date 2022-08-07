@@ -47,6 +47,9 @@
         Phone: <form:input path="phoneNumber"/>
         <form:errors path="phoneNumber"/>
         <br>
+        Email: <form:input path="email"/>
+        <form:errors path="email"/>
+        <br>
         Which car do you want? <br>
 <%--        Вариант №1--%>
 <%--        BMW <form:radiobutton path="carBrand" value="BMW"/>--%>
