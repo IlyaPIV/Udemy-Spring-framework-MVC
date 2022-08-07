@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e4943f-438a-4f89-843f-22b93240497e" name="Changes" comment="Views &amp; Model">
+    <list default="true" id="a0e4943f-438a-4f89-843f-22b93240497e" name="Changes" comment="@RequestParam">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/spring/mvc/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,7 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.64" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/spring-mvc/employee/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Udemy-Spring-framework-MVC:war exploded">
@@ -158,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659713677508</updated>
       <workItem from="1659713678740" duration="5682000" />
-      <workItem from="1659857238862" duration="2369000" />
+      <workItem from="1659857238862" duration="2879000" />
     </task>
     <task id="LOCAL-00001" summary="Views &amp; Model">
       <created>1659859411158</created>
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659859411158</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="@RequestParam">
+      <created>1659859854925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659859854925</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +194,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Views &amp; Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Views &amp; Model" />
+    <MESSAGE value="@RequestParam" />
+    <option name="LAST_COMMIT_MESSAGE" value="@RequestParam" />
   </component>
 </project>

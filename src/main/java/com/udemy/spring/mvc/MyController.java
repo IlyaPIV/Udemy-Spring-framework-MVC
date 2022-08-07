@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 
 
 @Controller
+@RequestMapping("/employee")
 public class MyController {
 
     @RequestMapping("/")
@@ -23,6 +24,7 @@ public class MyController {
         return "ask-emp-details-view";
     }
 
+
     /*
      *  ПРОСТОЙ ВАРИАНТ
      */
@@ -30,6 +32,7 @@ public class MyController {
 //    public String showEmployeeDetails(){
 //        return "show-emp-details-view";
 //    }
+
 
     /*
      *   ВАРИАНТ С HttpServletRequest
@@ -46,6 +49,7 @@ public class MyController {
 //
 //        return "show-emp-details-view";
 //    }
+
 
     /*
      *  ВАРИАНТ С @RequestParam
