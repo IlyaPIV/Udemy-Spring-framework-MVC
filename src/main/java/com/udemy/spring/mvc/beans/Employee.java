@@ -1,11 +1,17 @@
 package com.udemy.spring.mvc.beans;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Employee {
 
+    @Size(min = 2, max = 30, message = "2 <= name size <= 30")
     private String name;
+    @NotBlank(message = "surname is required field")
     private String surname;
     private int salary;
     private String department;
