@@ -31,6 +31,7 @@
         <form:errors path="surname"/>
         <br>
         Salary <form:input path="salary"/>
+        <form:errors path="salary"/>
         <br>
         Department <form:select path="department">
 <%--        Вариант №1--%>
@@ -43,10 +44,15 @@
 
         </form:select>
         <br>
+        Phone: <form:input path="phoneNumber"/>
+        <form:errors path="phoneNumber"/>
+        <br>
         Which car do you want? <br>
+<%--        Вариант №1--%>
 <%--        BMW <form:radiobutton path="carBrand" value="BMW"/>--%>
 <%--        Audi <form:radiobutton path="carBrand" value="Audi"/>--%>
 <%--        MB <form:radiobutton path="carBrand" value="Mercedes-Benz"/>--%>
+<%--        Вариант №2--%>
             <form:radiobuttons path="carBrand" items="${employee.carBrands}"/>
         <br>
         Foreign languale(s)? <br>
