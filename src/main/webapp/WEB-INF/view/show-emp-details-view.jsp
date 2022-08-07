@@ -19,7 +19,9 @@
   <br>
 
 <%--  <h3>Your name: ${param.employeeName}</h3>--%>
-  <h3>Your name: ${nameAttribute}</h3>
-  <h3>Description: ${description}</h3>
+  <h4>Your name: ${employee.name}</h4>
+  <h4>Your surname: ${employee.surname}</h4>
+  <h4>Your salary: ${employee.salary}</h4>
+
 </body>
 </html>

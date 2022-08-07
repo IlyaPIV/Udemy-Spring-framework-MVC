@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e4943f-438a-4f89-843f-22b93240497e" name="Changes" comment="@RequestParam">
+    <list default="true" id="a0e4943f-438a-4f89-843f-22b93240497e" name="Changes" comment="@RequestMapping on Controller class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/spring/mvc/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -159,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659713677508</updated>
       <workItem from="1659713678740" duration="5682000" />
-      <workItem from="1659857238862" duration="2879000" />
+      <workItem from="1659857238862" duration="5302000" />
     </task>
     <task id="LOCAL-00001" summary="Views &amp; Model">
       <created>1659859411158</created>
@@ -175,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659859854925</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="@RequestMapping on Controller class">
+      <created>1659860218913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659860218913</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +204,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Views &amp; Model" />
     <MESSAGE value="@RequestParam" />
-    <option name="LAST_COMMIT_MESSAGE" value="@RequestParam" />
+    <MESSAGE value="@RequestMapping on Controller class" />
+    <option name="LAST_COMMIT_MESSAGE" value="@RequestMapping on Controller class" />
   </component>
 </project>

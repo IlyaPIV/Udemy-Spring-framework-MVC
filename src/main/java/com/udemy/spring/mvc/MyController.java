@@ -1,8 +1,10 @@
 package com.udemy.spring.mvc;
 
 
+import com.udemy.spring.mvc.beans.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -20,7 +22,10 @@ public class MyController {
     }
 
     @RequestMapping("/askDetails")
-    public String askEmlpoyeeDetails(){
+    public String askEmployeeDetails(Model model){
+
+        model.addAttribute("employee", new Employee());
+
         return "ask-emp-details-view";
     }
 
@@ -54,14 +59,21 @@ public class MyController {
     /*
      *  ВАРИАНТ С @RequestParam
      */
+//    @RequestMapping("/showDetails")
+//    public String showEmployeeDetails(@RequestParam("employeeName") String empName, Model model){
+//
+//        empName = "Mr. " + empName;
+//
+//        model.addAttribute("nameAttribute", empName);
+//
+//
+//        return "show-emp-details-view";
+//    }
+
     @RequestMapping("/showDetails")
-    public String showEmployeeDetails(@RequestParam("employeeName") String empName, Model model){
+    public String showEmployeeDetails(@ModelAttribute("employee") Employee employee){
 
-        empName = "Mr. " + empName;
 
-        model.addAttribute("nameAttribute", empName);
-
-        model.addAttribute("description", "stupid student");
 
         return "show-emp-details-view";
     }
